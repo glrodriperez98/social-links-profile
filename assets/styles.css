@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Inter', sans-serif;
+    background-color: hsl(0, 0%, 8%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 1rem;
+    flex-direction: column;
+  }
+  
+  .card {
+    background-color: hsl(0, 0%, 12%);
+    padding: 2rem;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 320px;
+    text-align: center;
+  }
+  
+  .card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+  
+  .name {
+    font-weight: 700;
+    font-size: 1.2rem;
+  }
+  
+  .location {
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+    margin: 0.5rem 0 1.2rem;
+  }
+  
+  .bio {
+    font-size: 0.9rem;
+    color: white;
+    margin-bottom: 1.5rem;
+    padding: 0 0.5rem;
+  }
+  
+  .links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .links li {
+    margin-bottom: 0.8rem;
+  }
+  
+  .btn {
+    display: block;
+    width: 100%;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    text-decoration: none;
+    font-size: 0.95rem;
+  }
+  
+  .btn:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+  }
+  
+  
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 2rem;
+    color: white;
+  }
+  
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+  
+  .attribution a:hover {
+    color:hsl(75, 94%, 57%);
+    text-decoration: none;
+  }
+
+  .attribution a:active {
+    color:hsl(75, 94%, 57%);
+    text-decoration: none;
+  }
